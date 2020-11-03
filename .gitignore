@@ -1,0 +1,7 @@
+*.PNG
+*.log
+/.idea
+/__pycache__
+*.session
+*.session-journal
+/venv
