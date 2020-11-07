@@ -76,11 +76,11 @@ def Login(phone: str, name: str):
         time.sleep(INTERVAL)
         pg.hotkey('ctrl', 'v')  # paste the message
         time.sleep(INTERVAL)
-        pg.press('backspace', presses = 315)
+        pg.press('backspace', presses = 265)
         time.sleep(INTERVAL)
         pg.press('left', presses = 11)
         time.sleep(INTERVAL)
-        pg.press('backspace', presses = 200)
+        pg.press('backspace', presses = 265)
         mt.find_element_by_xpath("//button[text()='Sign In']").click()
 
         # click on API development tools button
@@ -89,7 +89,7 @@ def Login(phone: str, name: str):
         time.sleep(3)
 
         # fill in long and short title and go to id/hash page
-        mt.find_element_by_id("app_title").send_keys("Testing simSMS")
+        mt.find_element_by_id("app_title").send_keys(name)
         mt.find_element_by_id("app_shortname").send_keys("TESTING")
         mt.find_element_by_id("app_save_btn").click()
         time.sleep(2)

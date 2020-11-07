@@ -8,9 +8,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
 path = 'C:\\Users\\Guy Buky\\Desktop\\new_list.py'
-COUNTRY_CODE = "+62"
+COUNTRY_CODE = "+44"
 INTERVAL = 0.2
-COUNTRY = "Индонезия"  # Indonesia
+COUNTRY = "Англия"  # England
 
 
 def NameList():

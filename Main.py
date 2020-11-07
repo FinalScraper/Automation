@@ -3,7 +3,7 @@ from declerations import AddToFile
 from colorama import Fore
 import time
 
-N = 140  # loop range
+N = 130  # loop range
 sim_cards = []
 
 for _ in range(N):
